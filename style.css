@@ -1,0 +1,15 @@
+/*
+Theme Name: WordPress Challenge Theme
+Author: David Bergeron
+Author URI: https://discoveram.com/
+Description: A theme to showcase David is not clueless
+Version: 1.0
+*/
+
+.tag {
+    padding: 3px 7px;
+    border: 1px solid #111;
+    border-radius: 3px;
+    font-size: 11px;
+    margin-right: 5px;
+}
