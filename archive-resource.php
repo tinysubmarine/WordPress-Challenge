@@ -16,8 +16,8 @@
             <?php get_header() ?>
 
             <div class="filters">
-                <form method="GET">
-                    <input type="search" placeholder="search..." name="s">
+                <form method="GET" action="<?php echo get_post_type_archive_link('resource') ?>">
+                    <input type="search" placeholder="search..." name="s" value="<?php echo $_GET['s'] ?? '' ?>">
 
                     <?php if (!empty(get_terms(['taxonomy' => 'topic']))) : ?>
                         <select name="filter_topic" id="" onchange="this.form.submit()">
